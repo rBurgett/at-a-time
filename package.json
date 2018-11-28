@@ -1,0 +1,29 @@
+{
+  "name": "at-a-time",
+  "version": "1.0.0",
+  "description": "at-a-time",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rBurgett/at-a-time.git"
+  },
+  "keywords": [
+    "simultaneous",
+    "asynchronous",
+    "processing"
+  ],
+  "author": "Ryan Burgett <ryan@burgettweb.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rBurgett/at-a-time/issues"
+  },
+  "homepage": "https://github.com/rBurgett/at-a-time#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
