@@ -1,5 +1,5 @@
 # at-a-time
-`at-a-time` allows you to do do asynchronous operations simultaneously but with a max number of operations going at any one time.
+`at-a-time` allows you to do asynchronous operations simultaneously but with a max number of operations going at any one time.
 ## Why?
 `Promise.all()` allows you to simultaneously do asynchronous operations and a `for` loop in an async function allows you to sequentially do asynchronous operations. But, sometimes you have more operations than you can handle at once and it would take too long to handle them sequentially. `at-a-time` allows you to do do asynchronous operations simultaneously but with a max number of operations going at any one time.
 
